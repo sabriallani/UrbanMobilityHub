@@ -37,7 +37,7 @@
 
 ### To run the Urban Noise Prediction API:
 
--  Python noise.py
+-  Run: python noise.py
 
 -  Go to http://127.0.0.1:5000/noise/%NewValue%/%Osm_Id%
 
