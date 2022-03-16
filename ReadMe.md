@@ -32,7 +32,7 @@
 
 - OSM_id: is the OSM id of the road segment.
 
-python Day_predictions.py --data_path=Helsinki-Day-data.csv --new_value=75 --OSM_id=900490572  --d_path=OSMs_dictionary.csv --model_path=Model.h5 --pred_path=preds.csv
+- Run : python Day_predictions.py --data_path=Helsinki-Day-data.csv --new_value=75 --OSM_id=900490572  --d_path=OSMs_dictionary.csv --model_path=Model.h5 --pred_path=preds.csv
 
 
 ### To run the Urban Noise Prediction API:
