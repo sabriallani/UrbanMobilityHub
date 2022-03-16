@@ -24,7 +24,7 @@
 4. The path to save the predictions: preds.csv
 
 
-### To get the prediction:
+### To get the prediction in local mode:
 
 - Replace the paths according to your directories:
 
@@ -36,7 +36,11 @@ python Day_predictions.py --data_path=Helsinki-Day-data.csv --new_value=75 --OSM
 
 
 ### To run the Urban Noise Prediction API:
--Run Python noise.py
--Go to http://127.0.0.1:5000/noise/%NewValue%/%Osm_Id% and replace %NewValue% with your prediction new value and %Osm_Id% with your Osm_Id
 
-- 
+-  Python noise.py
+
+-  Go to http://127.0.0.1:5000/noise/%NewValue%/%Osm_Id%
+
+-  Replace %NewValue% with your prediction value and %Osm_Id% with your Osm_Id
+
+
